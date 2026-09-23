@@ -1,1 +1,0 @@
-print("Sum of {1} & {2} is :{}".format(a ,b ,sum))
