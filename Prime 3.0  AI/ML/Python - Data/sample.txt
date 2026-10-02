@@ -1,1 +1,4 @@
-001
+This is a demo file 
+to store some words
+for the python activity
+which can be solved by us
