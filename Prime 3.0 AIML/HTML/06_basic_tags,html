@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+</head>
+<body>
+    <p><h2>Johny Johny yes papa,</h2> <br> <i>Eating sugar no papa,</i> <br> <u>Telling lie no papa,</u> <br> <b>Open your mouth,</b><br>
+    Ha-ha-ha.</p>
+
+    <!-- <ol reversed> -->
+    <ol type = "i">
+        <li> Html </li>
+        <li> Pyhton </li>
+        <li> Java </li>
+        <li> Css </li>
+    </ol>
+
+    <!-- Html is not a case sensitive : -->
+    
+    <p>Hii Rahul</p>
+    <P>Hii Rahul Dhankhar</P>
+</body>
+</html>
