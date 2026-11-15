@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<body>
+
+    <!-- Universal selector : it will select every element-->
+    
+    <h1> Heading !</h1>
+
+    <p> Welcome to my page. </p>
+
+    <button> Click me</button>
+
+    <style>
+        *{
+            color: antiquewhite;
+        }
+    </style>
+
+    <!-- Element selector is used to select a specific element -->
+
+    <style>
+        h1{
+            color: aqua;
+        }
+    </style>
+
+    <!-- Id selector is used to select specifid element if we are having same element -->
+
+    <h2 id="Heading1"> Hii </h2>
+
+    <h2 id="Heading2"> Good Evening Everyone !</h2>
+
+    <h2 id="Heading3"> Welcome to my website </h2>
+
+    <style>
+        #Heading1{
+            color:bisque;
+        }
+
+        #Heading2{
+            color:rgb(104, 91, 208);
+        }
+    </style>
+
+    <!-- Class selector is used when we need to give same color to two id -->
+    
+    <h2 Class="Heading1"> Hii </h2>
+
+    <h2 class="Heading1"> Good Evening Everyone !</h2>
+
+    <h2 id="Heading3"> Welcome to my website </h2>
+
+    <style>
+        .Heading1{
+            color: rgb(218, 126, 186);
+        }
+    </style>
+    
+</body>
+</html>
