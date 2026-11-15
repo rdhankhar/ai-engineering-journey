@@ -1,0 +1,17 @@
+h1{
+    color: rgb(190, 233, 111);
+    background-color: azure;
+}
+
+p{
+    color: rgb(212, 20, 20);
+}
+
+button{
+    color:rgb(29, 176, 63);
+    background-color: rgb(200, 131, 131);
+}
+
+body{
+    background-color: cadetblue;
+}
