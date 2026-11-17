@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Inline block is used for apply heigh , margin and padding which is not possible only with the inline dispay tag -->
+    <h2>Display Block </h2>
+
+    <div id="d1">block 1</div>
+    <div id="d2">block 2</div>
+    <div id="d3">block 3</div>
+
+    <style>
+        
+        #d1{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            margin:25px;
+            padding: 25px;
+            display: inline-block;  
+        }
+
+ /* Display none is used to delete the from the place and there will be no space in memory for that partticular block  */
+/* visibilty only hides the data not the memory space */
+        #d2{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            margin:25px;
+            padding: 25px;
+            display: inline-block;
+            visibility: hidden;
+
+            
+        }
+
+        #d3{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            margin:25px;
+            padding: 25px;
+            display: inline-block;
+            
+            
+        }
+        
+    </style>
+</body>
+</html>
