@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 5</title>
+</head>
+<body>
+    <div>This a Box</div>
+
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: steps(3);
+            transition-delay: 2s;
+            transition: all 2 ease-in 2s;
+        }
+
+        div:hover{
+            background-color: brown;
+            color: beige;
+            font-size: 20px;
+        }
+
+        div:active{
+            background-color: rgb(159, 27, 207);
+            color: rgb(212, 212, 22);
+            font-size: 30px;
+        }
+    </style>
+</body>
+</html>
